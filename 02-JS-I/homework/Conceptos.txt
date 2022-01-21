@@ -17,7 +17,7 @@ Estos argumentos son variables que las podemos usar posteriormente dentro del co
 Declaraciones if:
 Son statements que la utilizamos para hacer condiciones en nuestro lenguaje de programacion.
 El if comenzará con la palabra clave if, lo que indica que viene una condicion.
-Luego viene un paréntesis abierto y uno cerrado, dentro de el vienen una condicion esta condicion viene con los valores a comparar como numeros, strings, boleanos, esta comparacion se utiliza los operadores &&, || , ==, ===, !=, !==, los mas comunes.
+Luego viene un paréntesis abierto y uno cerrado, dentro de el vienen una condicion esta condicion viene con los valores a comparar como numeros, strings, boleanos, esta comparacion se utiliza los operadores &&, || , ==, ===, !=, !==, >, >=, <, <=, los mas comunes.
 que nos idican si es verdadero o falsa la condicion, estos se conocen como valores booleanos (true, false). true es verdadero y false es falso.
 
 
