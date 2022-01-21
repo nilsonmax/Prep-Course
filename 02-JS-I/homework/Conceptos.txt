@@ -1,0 +1,23 @@
+Variables:
+Una variable es una forma de almacenar en memoria el valor de algo para usar más tarde.
+
+Strings:
+Las “strings” son bloques de texto, siempre se definirán entre comillas, ya sea simple o doble. Cualquier texto sea numeros o letras entre comillas es una cadena o string.
+
+Funciones (argumentos, return):
+Las funciones son una parte muy importante de todo lenguaje de programacion.
+Una función comenzará con la palabra clave function, lo que indica que es una función.
+Después de eso viene el nombre de la función.
+Luego viene un paréntesis abierto y uno cerrado, dentro de el puede o no tener argumentos.
+Las funciones pueden retornar un valor o no, las que retornan un valor usan la palabra reservada return seguido del valor a retornar, ejemplo: return variable.
+
+Argumentos o parametros:
+Estos argumentos son variables que las podemos usar posteriormente dentro del codigo de nuestras funciones.
+
+Declaraciones if:
+Son statements que la utilizamos para hacer condiciones en nuestro lenguaje de programacion.
+El if comenzará con la palabra clave if, lo que indica que viene una condicion.
+Luego viene un paréntesis abierto y uno cerrado, dentro de el vienen una condicion esta condicion viene con los valores a comparar como numeros, strings, boleanos, esta comparacion se utiliza los operadores &&, || , ==, ===, !=, !==, los mas comunes.
+que nos idican si es verdadero o falsa la condicion, estos se conocen como valores booleanos (true, false). true es verdadero y false es falso.
+
+
