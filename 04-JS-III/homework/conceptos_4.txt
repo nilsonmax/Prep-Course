@@ -1,0 +1,4 @@
+Arreglos o matrices:
+Podemos pensar en las matrices como contenedores de almacenamiento para colecciones de datos.
+Construir una matriz es simple, declarar una variable y establecerla en [].
+Luego podemos agregar al contenedor (separadas por coma) tantas cadenas, números o booleanos como queramos y acceder a esos elementos cuando lo deseemos.
