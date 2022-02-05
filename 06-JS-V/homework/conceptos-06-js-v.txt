@@ -1,0 +1,9 @@
+Prototype:
+Con un prototype las clases tienen una forma única de establecer un método una vez y
+dar acceso a cada objeto de esa clase a esos métodos.
+
+Clases o contructores:
+Los constructores nos ayuda a no repetir tanto el mismo codigo de un objeto.
+Ya que las clases comparten gran parte de la misma funcionalidad que los objetos normales,
+pero también se expande mucho en esa funcionalidad.
+Las clases son útiles para crear muchos objetos que comparten algunas de las mismas propiedades y métodos.
