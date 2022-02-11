@@ -1,0 +1,34 @@
+body{
+    background-image: url("img/fondo.png");
+}
+h1{
+    color: blue;
+}
+img{
+    width: 400px;
+}
+#thirdDiv{
+    /* height: 600px; */
+    width: 500px;
+    background-color: blueviolet;
+    /* padding: 50px; */
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: 10px solid burlywood;
+    margin: 0 auto;
+    max-width: 600px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
+.divClass{
+    margin: 10 auto;
+    max-width: 600px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
