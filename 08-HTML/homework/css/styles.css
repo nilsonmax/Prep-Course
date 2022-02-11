@@ -1,0 +1,35 @@
+/* ----- GENERALES ------ */
+ul{
+    list-style: none;
+}
+
+/* ----- ASIDE ------ */
+aside{
+    background-color: #4D6C73;
+}
+#profile img{
+    width: 200px;
+    border-radius: 50%;
+}
+aside * {
+    color: white;
+}
+aside h2{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+aside section h2:first-child{
+    border-bottom: 2px solid white;
+}
+
+/* ----- MAIN ------ */
+.hero{
+    background-color: #BF5E49;
+    box-shadow: 2px 2px 30px 2px #A64941 inset;
+}
+.hero h2{
+    color: white;
+    border-top: 2px solid white;
+}
+
+
