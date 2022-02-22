@@ -1,35 +1,123 @@
-/* ----- GENERALES ------ */
+/* ----- GENERALES ----- */
 ul{
     list-style: none;
 }
-
-/* ----- ASIDE ------ */
-aside{
-    background-color: #4D6C73;
+h1, h2, h3{
+  text-transform: uppercase;  
 }
+h3{
+    margin-right: 1%;
+}
+
+/* ----- LAYOUT ----- */
+.container {
+    display: -webkit-flex;
+    display: flex;
+    font-size: 14;
+    margin: 1%;
+  }
+.initial {
+    -webkit-flex: initial;
+            flex: initial;
+    width: 600px;
+    min-width: 400px;
+  }
+.none {
+    -webkit-flex: none;
+            flex: none;
+    width: 200px;
+  }
+.flex1 {
+    -webkit-flex: 1;
+            flex: 1;
+  }
+.flex2 {
+    -webkit-flex: 2;
+            flex: 2;
+  } 
+
+/* ----- ASIDE ----- */
+aside{
+    background-color: #072126;
+    margin-right: 3%;
+    
+}
+
 #profile img{
     width: 200px;
     border-radius: 50%;
+    display:block;
+    margin:auto;
+}
+#figcaption-center{
+    text-align: center;
 }
 aside * {
     color: white;
 }
 aside h2{
-    text-transform: uppercase;
-    letter-spacing: 5px;
+   letter-spacing: 5px;
+   
 }
 aside section h2:first-child{
     border-bottom: 2px solid white;
 }
 
-/* ----- MAIN ------ */
+/* ----- MAIN ----- */
 .hero{
     background-color: #BF5E49;
     box-shadow: 2px 2px 30px 2px #A64941 inset;
-}
+    padding: 15% 0;
+    text-align: center;
+ }
 .hero h2{
     color: white;
     border-top: 2px solid white;
+ }
+.hero h1, .hero h2{
+    letter-spacing: 10px;
 }
 
+/* ----- EDUCATION ---- */
+.education{
+    background-color: gainsboro; 
+    padding-bottom: 3px;
+}
+.education h2{
+    background-color: white;  
+}
 
+/* ----- DESCRIPTION ----- */
+.description {
+    background-color: burlywood;
+    line-height: 2.5em;
+    padding-bottom: 3px;
+      
+}
+.description h2 {
+    background-color: white;
+    border-top: 2px solid white;
+    
+}
+
+/* ----- METER ----- */
+meter{
+    display: block;
+    width: 80%;
+}
+meter::-webkit-meter-bar {
+    /* Necesario para eliminar la propiedad de fondo por defecto */
+    background : none;
+    background-color : whiteSmoke;
+    box-shadow : 0 5px 5px -5px #333 inset;
+}
+  
+meter::-webkit-meter-optimum-value {
+    box-shadow: 0 5px 5px -5px #999 inset;
+}
+
+/* ---- COLOR P ---- */
+.Hobbies p, .experiencia p, .expectativas p {
+    color: #999;
+    padding-inline: 15px;
+}
